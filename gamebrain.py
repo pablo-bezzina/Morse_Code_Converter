@@ -88,4 +88,4 @@ class GameBrain(Tk):
                 missing_chars = set(self.missing_chars)
                 messagebox.showerror('Unconverted items.',
                                      f'The following characters could not be converted to Morse:\n'
-                                        f'{",".join(missing_chars)}')
+                                        f'{", ".join(missing_chars)}')
